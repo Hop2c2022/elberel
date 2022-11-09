@@ -1,0 +1,36 @@
+.Meet {
+  background: url("../../public/Meeting.svg");
+  background-repeat: no-repeat;
+}
+.Body1 {
+  display: flex;
+  justify-content: space-between;
+}
+.teamwork {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Garchig {
+  font-weight: 700;
+  font-size: 50px;
+  color: black;
+}
+.title {
+  font-size: 20px;
+  font-weight: 400;
+}
+.sda {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.li {
+  color: #4da0fd;
+}
