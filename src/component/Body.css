@@ -34,3 +34,23 @@
 .li {
   color: #4da0fd;
 }
+.Body2 {
+  display: flex;
+  justify-content: space-between;
+}
+.simple {
+  height: 100vh;
+}
+.zurg1 {
+  width: auto;
+  height: 1100px;
+}
+
+.zurg2 {
+  width: auto;
+  height: 800px;
+}
+.zurg3 {
+  width: auto;
+  height: 800px;
+}
