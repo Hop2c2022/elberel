@@ -7,8 +7,8 @@ export const Header = () => {
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <div className="team"></div>
           <div className="ehlel">
-            <Link className="h-h" to="/Producs">
-              Producs
+            <Link className="h-h" to="/Users">
+              Users
             </Link>
             <Link className="h-h" to="/Services">
               Services
