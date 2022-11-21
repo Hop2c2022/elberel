@@ -24,14 +24,15 @@ export const Users = () => {
   console.log(users.data);
 
   return (
-    <div className="">
+    <div className="bru">
       {users?.data?.map((el) => {
         return (
           <div className="hairtsag">
-            <img src={el.picture} alt="" />
-            <h2>First Name: {el.firstName}</h2>
-            <h2>Last Name: {el.lastName}</h2>
-            <h2>Title: {el.title}</h2>
+            <div className="tegshee">
+            <img className="zurag" src={el.picture} alt="" />
+            <h6>First Name: {el.firstName}</h6>
+            <h6>Last Name: {el.lastName}</h6>
+            <h6>Title: {el.title}</h6></div>
           </div>
         );
       })}

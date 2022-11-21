@@ -5,6 +5,7 @@
 .Body1 {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(234, 234, 234);
 }
 .teamwork {
   width: 100vw;
@@ -37,6 +38,7 @@
 .Body2 {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(234, 234, 234);
 }
 .simple {
   height: 100vh;
@@ -45,7 +47,9 @@
   width: auto;
   height: 1100px;
 }
-
+.Body3 {
+  background-color: rgb(234, 234, 234);
+}
 .zurg2 {
   width: auto;
   height: 800px;
@@ -53,4 +57,16 @@
 .zurg3 {
   width: auto;
   height: 800px;
+}
+.bruhh {
+  display: flex;
+  justify-content: start;
+  margin-top: 10%;
+}
+.Body4 {
+  /* text-align: center; */
+  font-weight: bolder;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(234, 234, 234);
 }

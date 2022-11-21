@@ -1,5 +1,7 @@
 import "./Body.css";
 import { Link } from "react-router-dom";
+import { Card } from "./Card";
+const array = [1, 2, 3, 4];
 export const Body = () => {
   return (
     <div>
@@ -64,6 +66,18 @@ export const Body = () => {
             </div>
           </div>
           <img className="zurg3" src="Ah.svg" alt="" />
+        </div>
+      </div>
+      <div className="Body4">
+        <h2
+          style={{ fontWeight: "700", textAlign: "center ", fontSize: "45px" }}
+        >
+          What people say about us
+        </h2>
+        <div className="bruhh">
+          {array.map((el) => {
+            return <Card />;
+          })}
         </div>
       </div>
     </div>
