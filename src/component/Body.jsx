@@ -1,6 +1,7 @@
 import "./Body.css";
 import { Link } from "react-router-dom";
 import { Card } from "./Card";
+// as
 const array = [1, 2, 3, 4];
 export const Body = () => {
   return (
