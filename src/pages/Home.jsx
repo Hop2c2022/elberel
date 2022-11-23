@@ -5,7 +5,6 @@ import { Body } from "../component/Body";
 export const Home = () => {
   return (
     <div>
-      <Header></Header>
       <Body></Body>
       <Footer></Footer>
     </div>

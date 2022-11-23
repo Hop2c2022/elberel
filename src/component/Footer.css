@@ -1,0 +1,7 @@
+.big {
+  background-color: #252b3b;
+}
+
+.footerInput::placeholder {
+  color: #4da0fd;
+}
