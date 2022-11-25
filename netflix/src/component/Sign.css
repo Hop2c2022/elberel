@@ -1,0 +1,17 @@
+.tom {
+  background-image: url("./bg.jpg");
+  width: 100vw;
+  height: 693px;
+  box-shadow: 30px;
+  position: relative;
+
+  /* background-image: linear-gradient(black, white, black); */
+}
+/* .tomm {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    transparent 60%,
+    rgba(0, 0, 0, 0.8)
+  );
+  position: absolute;
+} */
